@@ -22,4 +22,4 @@ streamlit.dataframe(fruits_to_show)
 
 #streamlit.text(fruityvice_response)
 streamlit.header("Fruityvice Fruit Advice!")
-streamlit.text(fruityvice_response,json())
+streamlit.text(fruityvice_response.json())
